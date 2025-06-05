@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Praktikum Sistem Operasi</title>
+  <script type="text/javascript">
+    // URL Tujuan untuk /urlyoutube2
+    var targetUrl = ""; // Ganti dengan URL YouTube kedua Anda
+
+    function redirectToTarget() {
+      window.location.replace(targetUrl);
+    }
+    window.onload = redirectToTarget;
+  </script>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+  </style>
+</head>
+<body>
+  <p>Mengarahkan ke URL tujuan (YouTube 2)...</p>
+  <p><a id="targetLink" href="#">Klik di sini jika Anda tidak diarahkan secara otomatis.</a></p>
+  <script type="text/javascript">
+    document.getElementById("targetLink").href = targetUrl;
+  </script>
+</body>
+</html>
